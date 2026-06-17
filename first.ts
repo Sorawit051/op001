@@ -1,0 +1,24 @@
+let fname: string = "Sorawit";
+let lname: string = "Chaichok";
+let age: number = 19;
+let dreamJob: string = "Programmer";
+let course: string = "Object-Oriented Programming";
+let mark1: number = 80;
+let mark2: number = 70;
+let total: number = mark1 + mark2;
+let pass: boolean = true;
+
+console.log("Name: %s %s \nAge: %d \nDream Job: %s \nCourse: %s\nMark: %d", fname, lname, age, dreamJob, course, total);
+console.log("Pass:",pass);
+let courses: string[] = ["Database", "Programming", "Web"];
+let marks: number[] = [75,72,81];
+console.log(marks);
+console.log("\n");
+console.log("Courses[0]:", marks[0]);
+console.log("Courses[1]:", marks[1]);
+console.log("Courses[2]:", marks[2]);
+console.log("\n");
+total = marks[0] + marks[1] + marks[2];
+let average = total / 3;
+console.log("Total:", total);
+console.log("Average:", average);
